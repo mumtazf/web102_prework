@@ -29,12 +29,24 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-
-
-        // create a new div element, which will become the game card
-
-
+        for(const game in games){
+    // create a new div element, which will become the game card
+            let gameCard = document.createElement('gameCard');
+            console.log(1);
         // add the class game-card to the list
+            gameCard.classList.add('games-container');
+            
+            //part 3
+            const gameImage = `${game.img}`;
+            const gameName = `${game.name}`;
+            const gameDescrp = `${game.description}`;
+            gameCard.innerHTML = {gameImage,gameName,gameDescrp};
+
+            const gameCardLocation = document.getElementById('games-container');
+            gameCardLocation.append(gameCard);
+        }
+
+
 
 
         // set the inner HTML using a template literal to display some info 
@@ -44,7 +56,6 @@ function addGamesToPage(games) {
 
 
         // append the game to the games-container
-
 }
 
 // call the function we just defined using the correct variable
