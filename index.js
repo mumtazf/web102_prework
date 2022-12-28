@@ -9,6 +9,8 @@ import GAMES_DATA from './games.js';
 
 // create a list of objects to store the data about the games using JSON.parse
 const GAMES_JSON = JSON.parse(GAMES_DATA)
+console.log(GAMES_JSON)
+console.log(GAMES_JSON[0].name)
 
 // remove all child elements from a parent element in the DOM
 function deleteChildElements(parent) {
@@ -27,20 +29,19 @@ const gamesContainer = document.getElementById("games-container");
 
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
-
+console.log("hhi");
     // loop over each item in the data
-        for(const game in games){
+        for(let i = 0; i<games.length; i++){
     // create a new div element, which will become the game card
-            let gameCard = document.createElement('gameCard');
-            console.log(1);
-        // add the class game-card to the list
-            gameCard.classList.add('games-container');
-            
-            //part 3
-            const gameImage = `${game.img}`;
-            const gameName = `${game.name}`;
-            const gameDescrp = `${game.description}`;
-            gameCard.innerHTML = {gameImage,gameName,gameDescrp};
+            let gameCard = document.createElement('game-card');
+        // add the class game-card to the list            //part 3
+            const gameImage = games[i].img;
+            const gameName = games[i].name;
+            console.log(gameName);
+            const gameDescrp = games[i].description;
+            gameCard.innerHTML = `<H3>${gameName}<H3>
+                                    <img class = 'game-img' src ='${gameImage}'/> 
+                                    <p>${gameDescrp}</p>`;
 
             const gameCardLocation = document.getElementById('games-container');
             gameCardLocation.append(gameCard);
@@ -59,6 +60,7 @@ function addGamesToPage(games) {
 }
 
 // call the function we just defined using the correct variable
+addGamesToPage(GAMES_JSON);
 // later, we'll call this function using a different list of games
 
 
