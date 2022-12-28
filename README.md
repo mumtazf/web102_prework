@@ -51,3 +51,15 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+
+oozedivetrappine
+6games-container.stats-card15
+11seafoamGAMES_JSON
+
+
+## Excellent Resources I found along the way
+(1) Console.log and other fabulous commands for debugging
+ https://javascript.plainenglish.io/its-2022-please-don-t-just-use-console-log-anymore-217638337c7d
+(2)
