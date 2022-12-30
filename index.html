@@ -16,7 +16,7 @@
     <!-- background info about company -->
     <h2>Welcome to Sea Monster!</h2>
     <div id="description-container">
-        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+        <p id = "description">The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
     <!-- top games & other interesting stats -->
@@ -49,16 +49,19 @@
 
     <!-- list of games funded by Sea Monster -->
     <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <p class = "description">Check out each of our games below or search for your favorite one!</p>
+    <!-- <form id = "form" onsubmit="{this.searchFunction}; return false;">  -->
+        <input type = "text" id = "searchQuery" value = "" placeholder="Search for games..." oninput = "searchFunction((this.value).toLowerCase())">
+        <!-- <input type = "submit" id = "submitForm" value = "Search!">
+    </form> -->
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
     </div>
-    <div id="games-container">
-        
+    <div id="games-container">     
     </div>
-
+ 
     <script type="module" src="index.js"></script>
+
   </body>
-</html>

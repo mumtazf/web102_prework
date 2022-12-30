@@ -1,23 +1,25 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - GamesFundMe
 
-Submitted by: **Your Name Here**
+Submitted by: Mumtaz Fatima
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**GamesFundMe** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Improved the styling by giving it a dark theme to suit gamers' asthetics 
+* [] Search functionality underprogress
+
 
 ## Video Walkthrough
 
@@ -25,20 +27,19 @@ Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
+GIF created with:
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+### Describe any challenges encountered while building the app.
+I found the overall prework challenge to be fun especially because it seemed more gamified. I initially struggled with template literals because I thought they are more complicated than they actually are. I found it interesting to learn about reduce and filter functions because they reduce so much of the for loop process. Overall, the prework was informative and helped me further build JS skills along the way.
+
+Currently, I'm tackling the optional challenge on search functionality. I was using a simple html form from users to search for a game, but the page refreshes each time the form is submitted. I changed my approach to searching while the query is being typed but that doesn't work because it gives me a function not defined error. I'm trying to work more on the search section.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Mumtaz Fatima]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -57,4 +58,3 @@ Describe any challenges encountered while building the app.
 ## Excellent Resources I found along the way
 (1) Console.log and other fabulous commands for debugging
  https://javascript.plainenglish.io/its-2022-please-don-t-just-use-console-log-anymore-217638337c7d
-(2)
