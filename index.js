@@ -148,8 +148,6 @@ function filterFundedOnly() {
     return fundedGames
 }
 
-let test = filterFundedOnly()
-console.log(test)
 
 
 // show all games

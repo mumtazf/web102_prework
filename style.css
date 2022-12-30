@@ -132,3 +132,7 @@ body{
     padding-left: 1ch;
     padding-right: 1ch;
 }
+
+.header{
+    align-items: center;
+}
