@@ -25,8 +25,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='assets\GameFundMe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
-(I've been having trouble uploading it to imgur. I've also attached added this walkthrough to the assets folder. Here's the link if the above gif doesn't load: )
+<img src= "https://github.com/mumtazf/web102_prework/blob/main/assets/GameFundMe.gif" title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+(I've been having trouble uploading it to imgur. I've also attached added this walkthrough to the assets folder. Here's the link if the above gif doesn't load: https://github.com/mumtazf/web102_prework/blob/main/assets/GameFundMe.gif)
 
 GIF created with:
 [ScreenToGif](https://www.screentogif.com/) for Windows
